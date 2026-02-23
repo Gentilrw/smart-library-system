@@ -3,8 +3,8 @@ from library_system import Book, Library, borrow_item
 def main():
     library = Library()
 
-    book1 = Book("Python Basics", "John Doe", 300)
-    book2 = Book("AI Introduction", "Jane Smith", 250)
+    book1 = Book("Python Basics", "Emmanuel Gentil", 300)
+    book2 = Book("AI Introduction", "Leonard Safari", 250)
 
     # admin adds books
     print(library.add_book("Admin", book1))
